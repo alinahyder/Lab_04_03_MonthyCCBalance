@@ -6,7 +6,7 @@ public class Main {
         double twoMonth;
 
         oneMonth= creditCardBal*interestRate;
-        twoMonth= oneMonth*interestRate;
+        twoMonth= creditCardBal*interestRate+oneMonth*interestRate;
         System.out.println("The interest due after one month is "+oneMonth);
         System.out.println("The interest due after two months is "+twoMonth);
 
